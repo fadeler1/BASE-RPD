@@ -1,3 +1,5 @@
+
+import { fileURLToPath } from 'url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
@@ -13,4 +15,8 @@ export default defineConfig({
       reporter: ['text', 'json', 'html'],
     },
   },
+  server: {
+    port:8080,
+  },
+  base: 'RPD'
 })
