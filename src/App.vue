@@ -1,12 +1,11 @@
 <script setup>
-  import Welcome from './components/Welcome.vue';
+
 </script>
 
 <template>
   <div>
     <img src="./assets/MicrosoftTeams-image.png" height="200" target="_blanck" /> 
   </div>
-  <Welcome msg="Comming soon ..!!" />
 </template>
 
 <style scoped>
