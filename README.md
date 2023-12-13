@@ -17,4 +17,8 @@ npm i -D @vitest/coverage-v8
 
 npm run coverage
 
+## dependencias:
+npm install vue-router
+
+
 
